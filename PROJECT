@@ -1,0 +1,6 @@
+domain: cronjob.kubebuilder.io
+layout:
+- go.kubebuilder.io/v3
+projectName: cronjob-kubebuilder-tutorial
+repo: cronjob.kubebuilder.io/project
+version: "3"
