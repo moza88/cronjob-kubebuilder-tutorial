@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: cronjob-kubebuilder-tutorial
 repo: cronjob.kubebuilder.io/project
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: cronjob.kubebuilder.io
+  group: batch
+  kind: CronJob
+  path: cronjob.kubebuilder.io/project/api/v1
+  version: v1
 version: "3"
